@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.containeer{
+    max-width: 76rem;
+    margin: auto;
+}
+body{
+    background: #1C1E26;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+.left-navbar{
+    display: flex;
+}
+.menu-img img {
+    width: 17px;
+    height: 17px;
+    margin-top: 0.5899rem;
+}
+.logo img {
+    width: 112px;
+    height: 35px;
+    margin-left: 0.5rem;
+}
+.menu{
+    margin-left: 40rem;
+}
+.menu ul{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.menu ul li a{
+    color: white;
+}
+.btn{
+    border: none;
+    border-radius: 20rem;
+    background-color: white;
+    height: 1rem;
+    width: 2.2rem;
+    /* position: absolute;
+    top: 11px; */
+    transition: padding-left 0.5s;
+}
+.btn span{
+    display: block;
+    margin-left: 0.7px;
+    width: 14px;
+    height: 14px ;
+    border-radius: 50%;
+    background-color: grey;
+    transition: background-color 0.5s;
+}
+.lamp{
+    height: 492px;
+    width: 221px;
+    position: absolute;
+    top: -100px;
+    left: 19rem;
+}
+.light{
+    height: 346px;
+    width: 464px;
+    position: absolute;
+    top: 384px;
+    left: 174px;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+.hero-content{
+    position: relative;
+    top:200px;
+    left: 700px;
+    width: 400px;
+}
+.heading{
+
+    color: white;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+.content{
+    color: white;
+    line-height: 1.4rem;
+    padding: 1.5rem 0;
+    font-family: 'Poppins', sans-serif ;
+}
+.collection{
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    background-color: #00986F;
+    color: white;
+}
+
+.active{
+        padding-left: 20px;
+        background-color: #00986f;
+        color:white;
+        transition: padding-left 0.5s;
+}
+.active span{
+    background-color: white;
+    transition: background-color 0.5s;
+}
+.on{
+    opacity: 1;
+    transition: opacity 0.5s;
+}

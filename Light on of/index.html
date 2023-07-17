@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VueLamp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar containeer">
+      <div class="left-navbar">
+        <div class="menu-img">
+          <img src="images/menu.png" alt="" />
+        </div>
+        <div class="logo">
+          <img src="images/logo.png" alt="" />
+        </div>
+      </div>
+      <div class="menu containeer">
+        <ul>
+          <li><a href="">Latest </a></li>
+          <li><a href="">Modern</a></li>
+          <li><a href="">Contemporary</a></li>
+          <li><a href="">Affordale</a></li>
+          <li>
+            <button  id="button" class="btn" onclick="toggle()"><span  class=""></span></button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+        <img src="images/lamp.png" alt="" class="lamp">
+        <img src="images/light.png" alt="" class="light" id="light">
+
+    </div>
+    <div class="hero-content container">
+       <p class="heading">
+        Latest In Lightning
+       </p>
+       <p class="content">This is a great lamb. It has a inbuilt motion sensor , which detects the motion in the radius of 30m</p>
+       <button class="collection">
+        Check all collections
+       </button>
+    </div>
+    <script>
+        let button= document.getElementById("button")
+        let light = document.getElementById("light")
+        function toggle(){
+            button.classList.toggle("active")
+            light.classList.toggle("on")
+
+        }
+        
+    </script>
+  </body>
+</html>
